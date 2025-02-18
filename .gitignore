@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Serialized Machine Learning models & large raw datasets
+models/*.joblib
+models/*.pkl
+*.h5
+*.onnx
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE, OS & Archive metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.zip
+init_git_repo.bat
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
